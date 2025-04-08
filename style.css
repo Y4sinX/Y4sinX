@@ -1,0 +1,24 @@
+@keyframes dance {
+    0% { transform: rotate(0deg) translateX(0); }
+    25% { transform: rotate(10deg) translateX(5px); }
+    50% { transform: rotate(-10deg) translateX(-5px); }
+    75% { transform: rotate(10deg) translateX(5px); }
+    100% { transform: rotate(0deg) translateX(0); }
+}
+
+
+
+.ad{
+    text-align: center;
+}
+.me{
+    padding-left: 520px;
+    border-radius: 10px;
+    animation: dance 1s infinite;
+}
+div {
+    font-size: xx-large;
+    text-align: center;
+    animation: dance 1s infinite;
+    
+}
